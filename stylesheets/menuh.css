@@ -27,7 +27,7 @@
 
 #navbar li ul {
 	display: none;
-	margin-left: -25px;
+	margin-left: -24px;
 	background-color: #b5e853;
 	position: absolute;
 	z-index: 999;
@@ -38,22 +38,22 @@
 }
 
 #navbar li ul li {
-	height: 2em;
-	padding: 0;
+	height: 3em;
+}
+
+#navbar li ul li a {
+	text-decoration: none;
+	color: #000;
+	height: 3em;
 }
 
 #navbar li ul li:hover, #navbar li ul li a:hover {
 	background-color: #a1c03f;
 }
 
-#navbar li ul li a {
-	text-decoration: none;
-	color: #000;
-}
-
 #navbar li:hover:before, #navbar li ul li:hover:before, #navbar li ul li:before {
 	content: ">>";
-	height: 2em;
+	height: 3m;
 	font-size: 13px;
 	color: #000;
 	margin-right: 20px;
