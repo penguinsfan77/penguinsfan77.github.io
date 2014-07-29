@@ -4,6 +4,11 @@
 	padding: 0px;
 	list-style-type: none;
 	text-align: center;
+	float: left;
+}
+
+#navbar > li {
+	float: left;
 }
 
 #navbar li {
@@ -16,7 +21,7 @@
 	color: #fff;
 }
 
-#navbar li:hover {
+#navbar li:hover, li a:hover {
 	color: #000;
 	background-color: #b5e853;
 }
