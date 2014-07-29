@@ -1,58 +1,4 @@
 
-#menuh-container
-	{
-	position: absolute;		
-	top: 1em;
-	left: 1em;
-	}
-
-#menuh
-	{
-	font-size: small;
-	font-family: arial, helvetica, sans-serif;
-	width:100%;
-	float:left;
-	margin:2em;
-	margin-top: 1em;
-	}
-		
-#menuh a
-	{
-	text-align: center;
-	display:block;
-	border: 1px solid #0040FF;
-	white-space:nowrap;
-	margin:0;
-	padding: 0.3em;
-	}
-	
-#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
-	{
-	color: white;
-	background-color: #0040FF;		/* royal blue */
-	text-decoration:none;
-	}
-	
-#menuh a:hover						/* menu on mouse-over  */
-	{
-	color: white;
-	background-color: #668CFF;	/* cornflowerblue */
-	text-decoration:none;
-	}	
-	
-#menuh a.top_parent, #menuh a.top_parent:hover  /* attaches down-arrow to all top-parents */
-	{
-	background-image: url(navdown_white.gif);
-	background-position: right center;
-	background-repeat: no-repeat;
-	}
-	
-#menuh a.parent, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
-	{
-	background-image: url(nav_white.gif);
-	background-position: right center;
-	background-repeat: no-repeat;
-	}
 
 #menuh ul
 	{
@@ -68,10 +14,15 @@
 
 #menuh li
 	{
+	display: inline;
 	position:relative;
 	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
 	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
 	}
+
+#menuh ul li ul li {
+	display: block;
+}
 
 #menuh ul ul
 	{
