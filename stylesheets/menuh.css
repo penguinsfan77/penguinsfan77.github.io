@@ -30,17 +30,7 @@
 /* Main menu
 ------------------------------------------*/
 #navbar {
-    font-family: Arial;
-    font-size: 12px;
-    background: #2f8be8;
-}
-#navbar > li > a {
-    color: #fff;
-    font-weight: bold;
-}
-#navbar > li:hover > a {
-    background: #f09d28;
-    color: #000;
+	text-align: center;
 }
  
 /* Submenu
@@ -48,9 +38,9 @@
 #navbar ul {
     background: #b5e853;
 }
-#navbar ul li a {
+#navbar ul li {
     color: #000;
 }
-#navabr ul li:hover a {
+#navabr ul li:hover {
     background: #a1c03f;
 }
