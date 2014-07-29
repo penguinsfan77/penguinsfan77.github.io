@@ -1,44 +1,29 @@
-#navbar,
-#navbar ul {
-    list-style: none;
-}
 #navbar {
-    float: left;
-}
-#navbar > li {
-    float: left;
-}
-#navbar li a {
-	display: block;
-    height: 2em;
-    line-height: 2em;
-    padding: 0 1.5em;
-    text-decoration: none;
-    color: #000;
-}
-#navbar ul {
-    position: absolute;
-    display: none;
-    z-index: 999;
-}
-#navbar li:hover ul {
-    display: block;
-}
-
-/* Main menu
-------------------------------------------*/
-#navbar {
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
 	text-align: center;
 }
- 
-/* Submenu
-------------------------------------------*/
-#navbar ul {
-    background: #b5e853;
+
+#navbar li {
+	display: inline;
+	padding: .2em 1em;
 }
-#navbar ul li {
-    color: #000;
+
+#navbar li a {
+	text-decoration: none;
+	color: #fff;
 }
-#navabr ul li:hover {
-    background: #a1c03f;
+
+#navbar li:hover {
+	color: #000;
+	background-color: #b5e853;
+}
+
+#navbar li ul {
+	display: none;
+}
+
+#navbar li:hover > ul {
+	display: block;
 }
