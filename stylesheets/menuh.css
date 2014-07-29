@@ -27,7 +27,7 @@
 
 #navbar li ul {
 	display: none;
-	margin-left: -30px;
+	margin-left: -21px;
 	background-color: #b5e853;
 	position: absolute;
 	z-index: 999;
@@ -37,7 +37,7 @@
 	display: block;
 }
 
-#navbar li ul li {
+#navbar li ul li a {
 	height: 2em;
 }
 
