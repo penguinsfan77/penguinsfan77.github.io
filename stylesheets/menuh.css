@@ -37,8 +37,8 @@
 	display: block;
 }
 
-#navbar li ul li a:hover {
-	height: 1em;
+#navbar li ul li {
+	height: 2em;
 }
 
 #navbar li ul li:hover, #navbar li ul li a:hover {
@@ -50,9 +50,13 @@
 	color: #000;
 }
 
-#navbar li:hover:before, #navbar li ul li:hover:before, #navbar li ul li:before {
+#navbar li:hover:before {
 	content: ">>";
 	font-size: 13px;
 	color: #000;
 	margin-right: 20px;
+}
+
+#navbar li ul li:hover:before, #navbar li ul li:before {
+	content: none;
 }
