@@ -20,7 +20,7 @@
 	color: #fff;
 }
 
-#navbar li:hover, li a:hover {
+#navbar li:hover, li > a:hover {
 	color: #000;
 	background-color: #b5e853;
 }
@@ -45,9 +45,9 @@
 	color: #000;
 }
 
-#navbar li:hover:before, #navbar li ul li:hover:before {
+#navbar li:hover:before, #navbar li ul li:hover:before, #navbar li ul li {
 	content: ">>";
 	font-size: 13px;
 	color: #000;
-	margin-right: 5px;
+	margin-right: 20px;
 }
