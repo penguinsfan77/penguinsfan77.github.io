@@ -6,10 +6,6 @@
 	text-align: center;
 }
 
-#navbar {
-	float: left;
-}
-
 #navbar li {
 	display: inline;
 	padding: .2em 1em;
@@ -33,7 +29,7 @@
 	left: 0px;
 }
 
-#navbar li:hover > ul {
+#navbar li:hover ul {
 	display: block;
 }
 
