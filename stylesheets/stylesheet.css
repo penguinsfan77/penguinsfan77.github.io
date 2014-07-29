@@ -138,10 +138,10 @@ dt {
 }
 
 #navbar ul {
+  margin: 0;
   padding: 5px;
   list-style-type: none;
-  display: inline-block;
-  position: relative;
+  text-align: center;
 }
 
 #navbar ul li a {
