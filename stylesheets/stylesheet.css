@@ -129,6 +129,40 @@ dt {
   font-weight: bold;
 }
 
+#navbar ul ul {
+  display: none;
+}
+
+#navbar ul li:hover > ul {
+  display: block;
+}
+
+#navbar ul {
+  padding: 5px;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+}
+
+#navber ul li:hover > ul li {
+  display: block;
+}
+
+#navbar ul li {
+  position: relative;
+}
+
+#navber ul li ul {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
 ul li {
   list-style: none;
 }
