@@ -44,3 +44,10 @@
 	text-decoration: none;
 	color: #000;
 }
+
+#navbar li:hover:before, #navbar li ul li:hover:before {
+	content: ">>";
+	font-size: 13px;
+	color: #000;
+	margin-right: 5px;
+}
