@@ -23,8 +23,13 @@
 
 #navbar li ul {
 	display: none;
+	background-color: #b5e853;
 }
 
 #navbar li:hover > ul {
 	display: block;
+}
+
+#navbar li ul li:hover {
+	background-color: #a1c03f;
 }
