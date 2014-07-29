@@ -53,6 +53,7 @@
 
 #navbar li:hover:before, #navbar li ul li:hover:before, #navbar li ul li:before {
 	content: ">>";
+	height: 2em;
 	font-size: 13px;
 	color: #000;
 	margin-right: 20px;
