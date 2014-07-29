@@ -1,61 +1,56 @@
-
-
-#menuh ul
-	{
-	list-style:none;
-	margin:0;
-	padding:5px;
-	text-align: center;
-	}
-
-#menuh ul li
-	{
-	display: inline;
-	position:relative;
-	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
-	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
-	}
-	
-#menuh ul li a {
-	text-decoration: none;
+#navbar,
+#navbar ul {
+    list-style: none;
 }
-
-#menuh ul li ul li {
+#navbar {
+    float: left;
+}
+#navbar > li {
+    float: left;
+}
+#navbar li a {
 	display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#navbar ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#navbar ul li a {
+    width: 80px;
+}
+#navbar li:hover ul {
+    display: block;
 }
 
-#menuh ul ul
-	{
-	position:absolute;
-	z-index:500;
-	top:auto;
-	display:none;
-	padding: 1em;
-	margin:-1em 0 0 -1em;
-	}
-
-#menuh ul ul ul
-	{
-	top:0;
-	left:100%;
-	}
-
-div#menuh li:hover
-	{
-	cursor:pointer;
-	z-index:100;
-	}
-
-div#menuh li:hover ul ul,
-div#menuh li li:hover ul ul,
-div#menuh li li li:hover ul ul,
-div#menuh li li li li:hover ul ul
-{display:none;}
-
-div#menuh li:hover ul,
-div#menuh li li:hover ul,
-div#menuh li li li:hover ul,
-div#menuh li li li li:hover ul
-{display:block;}
-
-/* End CSS Drop Down Menu */
+/* Main menu
+------------------------------------------*/
+#navbar {
+    font-family: Arial;
+    font-size: 12px;
+    background: #2f8be8;
+}
+#navbar > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#navbar > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#navbar ul {
+    background: #f09d28;
+}
+#navbar ul li a {
+    color: #000;
+}
+#navabr ul li:hover a {
+    background: #ffc97c;
+}
