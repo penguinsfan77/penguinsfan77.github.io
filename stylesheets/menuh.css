@@ -6,9 +6,12 @@
 	text-align: center;
 }
 
+#navbar li ul {
+	position: relative;
+}
+
 #navbar li {
 	display: inline;
-	padding: .2em 1em;
 }
 
 #navbar li a {
