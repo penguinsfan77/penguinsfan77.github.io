@@ -1,4 +1,5 @@
-#navbar {
+#navbar, #navbar li ul {
+	position: absolute;
 	margin: 0;
 	padding: 5px;
 	list-style-type: none;
