@@ -25,6 +25,8 @@
 	display: none;
 	background-color: #b5e853;
 	position: absolute;
+	top: 30px;
+	left: 0px;
 }
 
 #navbar li:hover > ul {
@@ -33,4 +35,9 @@
 
 #navbar li ul li:hover {
 	background-color: #a1c03f;
+}
+
+#navbar li ul li a {
+	text-decoration: none;
+	color: #000;
 }
