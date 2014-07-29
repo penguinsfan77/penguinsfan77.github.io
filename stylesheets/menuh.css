@@ -1,7 +1,7 @@
 #navbar, #navbar li ul {
 	position: absolute;
 	margin: 0;
-	padding: 5px;
+	padding: 0px;
 	list-style-type: none;
 	text-align: center;
 }
@@ -12,6 +12,7 @@
 
 #navbar li {
 	display: inline;
+	padding: .2em 1em;
 }
 
 #navbar li a {
