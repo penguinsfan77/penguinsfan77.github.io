@@ -27,6 +27,7 @@
 
 #navbar li ul {
 	display: none;
+	margin-left: -30px;
 	background-color: #b5e853;
 	position: absolute;
 	z-index: 999;
@@ -34,6 +35,10 @@
 
 #navbar li:hover ul {
 	display: block;
+}
+
+#navbar li ul li {
+	height: 2em;
 }
 
 #navbar li ul li:hover, #navbar li ul li a:hover {
