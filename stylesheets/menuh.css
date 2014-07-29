@@ -6,9 +6,13 @@
 	text-align: center;
 }
 
+#navbar > li {
+	float: left;
+}
+
 #navbar li {
-	display: inline;
-	padding: .2em 1em;
+	display: block;
+	padding: 0 1.5em;
 }
 
 #navbar li a {
@@ -25,8 +29,7 @@
 	display: none;
 	background-color: #b5e853;
 	position: absolute;
-	top: 30px;
-	left: 0px;
+	z-index: 999;
 }
 
 #navbar li:hover ul {
