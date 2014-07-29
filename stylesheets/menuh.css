@@ -4,21 +4,21 @@
 	{
 	list-style:none;
 	margin:0;
-	padding:0;
-	float:left;
-	width:9em;	/* width of all menu boxes */
-	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
-	However, you will have to add padding in the "#menh a" rule so that the menu boxes
-	will have space on either side of the text -- try it */
+	padding:5px;
+	text-align: center;
 	}
 
-#menuh li
+#menuh ul li
 	{
 	display: inline;
 	position:relative;
 	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
 	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
 	}
+	
+#menuh ul li a {
+	text-decoration: none;
+}
 
 #menuh ul li ul li {
 	display: block;
