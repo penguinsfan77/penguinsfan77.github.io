@@ -4,10 +4,9 @@
 	padding: 0px;
 	list-style-type: none;
 	text-align: center;
-	float: left;
 }
 
-#navbar > li {
+#navbar {
 	float: left;
 }
 
