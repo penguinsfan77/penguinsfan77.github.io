@@ -25,7 +25,7 @@
 	background-color: #b5e853;
 }
 
-#navbar li a:hover {
+#navbar li:hover > a {
 	color: #000;
 }
 
